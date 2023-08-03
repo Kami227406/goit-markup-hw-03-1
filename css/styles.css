@@ -274,6 +274,7 @@ ul {
     text-transform: capitalize;
     color: var(--title-color);
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -284,6 +285,11 @@ ul {
 
 .team-item {
     background-color: var(--hero-color);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.teem-job {
+    padding: 32px 0;
 }
 
 .team-subtitle {
