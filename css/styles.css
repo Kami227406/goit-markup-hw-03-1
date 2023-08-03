@@ -13,6 +13,10 @@ body {
     background-color: var(--hero-color);
 }
 
+img {
+    display: block;
+}
+
 p,
 h1,
 h2,
@@ -188,7 +192,9 @@ ul {
     align-items: flex-start;
     gap: 10px;
     margin: 0 auto;
-
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 
@@ -199,6 +205,11 @@ ul {
 }
 
 /**!BENEFITS*/
+
+
+.benefits {
+    padding: 120px 0;
+}
 
 .benefits-list {
     width: 1440px;
@@ -218,8 +229,8 @@ ul {
 }
 
 .benefits-item {
-
     width: calc((100% - 72px) / 4);
+
 }
 
 .benefits-item-text {
@@ -244,6 +255,7 @@ ul {
     color: var(--title-color);
     max-width: 323px;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .products-title-list {
@@ -318,7 +330,7 @@ ul {
     background-color: var(--title-color);
     height: 312px;
     width: 1440px;
-
+    padding: 100px 0;
 }
 
 .footer-container {
@@ -397,16 +409,21 @@ ul {
     background-color: var(--footer-text-color);
     cursor: pointer;
     display: flex;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .filter-list-all:hover {
     color: var(--hero-color);
     background-color: var(--hover-color);
+    border: 1px solid transparent;
 }
 
 .filter-list-all:focus {
     color: var(--hero-color);
     background-color: var(--hover-color);
+    border: 1px solid transparent;
 }
 
 .filter-link {
@@ -424,6 +441,13 @@ ul {
 
 .filter-link-item {
     text-decoration: none;
+}
+
+.filter-addition {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .filter-subtitle {
