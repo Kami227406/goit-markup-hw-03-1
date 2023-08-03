@@ -226,12 +226,8 @@ ul {
 }
 
 .benefits-list {
-    width: 1440px;
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .benefits-subtitle {
